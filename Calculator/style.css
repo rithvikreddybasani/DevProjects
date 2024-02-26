@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 500px;
+    width: 300px;
+    display: flex;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-part {
+    flex-basis: 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.text-part p {
+    margin-right: 20px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+.buttons-part{
+    flex-basis: 60%;
+    background-color: slategrey;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+    gap: 5px;
+    padding: 10px;
+}
+
+
+
+
+

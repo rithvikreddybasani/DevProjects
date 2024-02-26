@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+
+.first {
+    min-height: 800px;
+    min-width: 100vw;
+    background-image: url(/developer.png);
+    background-size: cover;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.nameTag {
+    color: white;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+.nameTag h4 {
+    margin-bottom: 30px;
+}
+
+.second {
+    min-height: 150px;
+    background-color: black;
+}
+
+.second p{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;   
+   padding-top: 25px;
+}
+
+.hello{
+    font-size: 100px;
+}
+
+.third {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    place-items: center;
+}
+
+.same {
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgb(1, 1, 1,0.3);
+    margin-top: 80px;
+    transition: 0.5s ease-in;
+}
+
+.same1 {
+    justify-self: flex-end;
+}
+
+.same2 {
+    justify-self: flex-start;
+}
+
+.thirdContent h5{
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.thirdContent p {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+
+.same:hover {
+    transform: scale(1.02);
+    transition: 0.5s ease-out;
+}
+
+.last {
+    margin-top: 40px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    font-weight: 500;
+    color: white;
+}
+
+.lastFirst {
+    font-size: 20px;
+    padding-left: 30px;
+    background-color:darkgoldenrod;
+}
+.lastFirst h3 {
+ 
+    padding-top: 20px;
+}
+.lastSecond {
+    font-size: 20px;
+    padding-left: 30px;
+    background-color: crimson;
+}
+
+.lastSecond h3 {
+    padding-top: 20px;
+}
+
+
+
+@media (max-width:786px){
+    .first {
+        min-height: 50vw;
+
+    }
+
+    .nameTag {
+        padding-left: 5px;
+        font-size: 22px;
+    }
+
+    .second {
+        min-height: 50px;
+    }
+    .second p,.second span{
+        font-size: 20px;
+        height:fit-content;
+    }
+
+    .last {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+
+}
+

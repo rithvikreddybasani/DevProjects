@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: pink;
+    border: 10px solid black;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.imagePart img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.topSection {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.informationPart {
+    margin-left: 200px;
+    font-size: 40px;
+    text-align: end;
+}
+
+.mainContent {
+    margin-top: 90px;
+}
+.mainContent h4 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.mainContent p {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.lastSection {
+   
+    margin: 60px auto;
+}
+
+.lastSection p {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.lastSection ul {
+    font-size: 20px;
+}
+
+footer {
+    text-align: end;
+    font-size: 25px;
+}
+

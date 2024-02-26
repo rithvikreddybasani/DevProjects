@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.firstPart {
+    width: 100%;
+    height: 100%;
+    background: fixed;
+    background-image: url(/image1.png);
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstPart p {
+    font-size: 70px;
+    background-color: black;
+    color: white;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+.secondPart {
+    background-color: white;
+   height: 320px;
+   width: 100vw;
+   margin: 0 auto;
+}
+
+.secondPart h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.secondPart p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.thirdPart {
+    height: 100vh;
+    width: 100vw;
+    background: fixed;
+    background-image: url(/image2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thirdPart p {
+    font-size: 70px;
+    background-color: black;
+    color: white;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+.fourthPart {
+    background-color: black;
+    color: white;
+}
+.fourthPart h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.fourthPart p {
+    font-size: 25px;
+    text-align: center;
+}
+.fifthPart {
+    height: 100vh;
+    width: 100vw;
+    background: fixed;
+    background-image: url(/image3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifthPart p {
+    font-size: 70px;
+    background-color: black;
+    color: white;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+.sixthPart {
+    background-color: black;
+    color: white;
+}
+.sixthPart h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.sixthPart p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.last {
+    height: 100vh;
+    width: 100vw;
+    background: fixed;
+    background-image: url(/image3.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last p {
+    font-size: 70px;
+    background-color: black;
+    color: white;
+}
+    
+
